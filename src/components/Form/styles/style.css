@@ -45,3 +45,23 @@
     color: var(--purple);
     padding: 0.4rem 2rem;
 }
+
+.form-field-error{
+    border-bottom: 2px red solid;
+    animation: shake ease 1 .5s;
+}
+.form-error{
+    color: red;
+}
+
+@keyframes shake {
+    25% {
+        transform: translateX(4px);
+    }
+    50% {
+        transform: translateX(-4px);
+    }
+    75% {
+        transform: translateX(4px);
+    }
+}
