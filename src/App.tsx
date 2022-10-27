@@ -1,5 +1,5 @@
 import { useState } from "react"
-import classNames from 'classNames'
+import classNames from 'classnames';
 
 import { Form } from "./components/Form"
 import { Header } from "./components/Header"

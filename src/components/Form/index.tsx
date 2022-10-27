@@ -1,5 +1,5 @@
 import { useState, MouseEvent, FormEvent } from "react"
-import classNames from 'classNames'
+import classNames from 'classnames';
 
 import { FormValues } from "./types"
 
