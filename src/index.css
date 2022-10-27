@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main-wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.main-wrapper-authed{
+	background: url('./assets//images/cat-1-4K.jpeg') no-repeat center center;
+	background-size: cover;
+}
+.main-title{
+	background: var(--purple);
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	animation: show 1 .5s ease-in;
+}
+
+@keyframes show {
+	from {
+        transform: translateX(-200%);
+    }
+}
+body {
+	font-family: "DM Sans", sans-serif;
+	line-height: 1.5;
+	background-color: #f1f3fb;
+}

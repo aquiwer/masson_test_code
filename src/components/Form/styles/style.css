@@ -1,0 +1,47 @@
+
+:root{
+    --purple: #6658d3;
+}
+
+.form-container{
+    background: #fff;
+    padding: 40px 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-field-wrapper{
+    border: none;
+    outline: none;
+    padding: 0.4rem 2rem;
+}
+
+.form-field{
+    border: none;
+    background: none;
+    border-bottom: 2px var(--purple) solid;
+    outline: none;
+}
+
+.form-button{
+    font: inherit;
+	font-size: 14px;
+	padding: 5px 10px;
+	width: 120px;
+	font-weight: 500;
+	background-color: var(--purple);
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-title{
+    font-weight: 500;
+    color: var(--purple);
+    padding: 0.4rem 2rem;
+}

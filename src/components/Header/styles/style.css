@@ -1,0 +1,32 @@
+
+.header-wrapper{
+    width: 100%;
+    height: 60px;
+    background: var(--purple);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header-title{
+    color: #fff;
+}
+.header-button{
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px #fff solid;
+    cursor: pointer;
+}
+
+.header-auth-body{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
